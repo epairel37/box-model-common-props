@@ -496,10 +496,7 @@ done
 
 /* For the third div, let's include the a background color, allow the image to tile, but center the tiling in the container */
 /* 
-    TO DO: add styles to the div with an ID of bg-img-3 in this section that will:
-        - add the lt-blue color to the background
-        - center the image pattern in the container
-        - add the puppy-photo as a repeating background to the container
+    done
 */
 #bg-img-3{
     background: var(--lt-blue) center url("images/puppy-photo.jpg");
@@ -524,13 +521,11 @@ done
 
 /* For the first div, let's add the pattern from the images folder called wood, it is from Transparent Textures. Include the lt-gray background color as well */
 /* 
-    TO DO: add styles to the div with an ID of pattern1 in this section that will:
-        - set the background color to light-gray
-        - scale the background image to 110% 
-        - add the wood background texture from the images folder
+   done
 */
 #pattern1{
-    
+    background: var(--light-gray) 110% url("images/wood.png");
+
 }
 
 /* For the second div, the pattern is from from Hero Pattern. These actually give you SVG code to paste into your CSS */
@@ -569,9 +564,7 @@ done
 
 /* Let's tell our images to float to the left. Remember, they'll sort of pile up next to each other in the container, but only if they're narrow enough to fit! */
 /* 
-    TO DO: add styles to the image with the ID of corgi in this section that will:
-        - float this image to the left
-        - add 1 rem of margin to the right of the image
+    done
 */
 #corgi{
     margin-right: 1rem;
@@ -583,20 +576,18 @@ done
 }
 
 /* 
-    TO DO: add styles to the image with an ID of dog-house in this section that will:
-        - float the image to the right
+    done
 */
 #dog-house{
-    
+    float: right;
 }
 
 /* When you use floats, you have to be sure to clear them so that the rest of your page after the floats displays normally. Let's use the display section to clear the floats (because it is the next tag outside of our container in the HTML) */
 /* 
-    TO DO: add styles to the display section that will:
-        - clear any floats
+    done
 */
 #section9{
-    
+    clear: both;
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */
